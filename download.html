@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download - Pixlectic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+      color: white;
+      margin: 0;
+      padding-top: 80px; /* space for navbar */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: rgba(0,0,0,0.5);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    header img.logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffa0;
+    }
+
+    h2 {
+      color: #00d4ff;
+      margin: 40px 0 20px;
+      text-align: center;
+    }
+
+    .downloads {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .download-card {
+      background: linear-gradient(145deg, #222, #111);
+      padding: 30px;
+      border-radius: 25px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+      transition: transform 0.3s;
+    }
+
+    .download-card:hover {
+      transform: translateY(-5px) scale(1.05);
+    }
+
+    .download-card h3 {
+      color: #00ffa0;
+      margin-bottom: 15px;
+    }
+
+    .download-card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .download-card a {
+      background: linear-gradient(90deg, #00d4ff, #00ffa0);
+      color: #111;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: inline-block;
+    }
+
+    .download-card a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ffa0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+      color: #888;
+      width: 100%;
+    }
+
+    @media (max-width: 480px) {
+      .download-card {
+        width: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home-page.html">
+      <img src="logo.png" alt="Pixlectic Logo" class="logo">
+    </a>
+    <nav>
+      <a href="home-page.html">Home</a>
+      <a href="aboutus.html">About</a>
+      <a href="generate.html">Generate</a>
+      <a href="contact.html">Contact</a>
+      <a href="download.html">Best Software</a>
+    </nav>
+  </header>
+
+  <h2>Download Our Files</h2>
+
+  <div class="downloads">
+    <!-- Download Card 1 -->
+    <div class="download-card">
+      <h3>Minecraft Bedrock</h3>
+      <p>Cracked Minecraft Bedrock (Full Version)</p>
+      <a href="Minecraft Bedrock (Crack).zip" download>Download</a>
+    </div>
+
+    <!-- Download Card 2 -->
+    <div class="download-card">
+      <h3>Minecraft Java</h3>
+      <p>One of the best Cracked Minecraft Java Launcher</p>
+      <a href="Minecraft Java (Cracked).zip" download>Download</a>
+    </div>
+    <div class="download-card">
+      <h3>Hack Hide</h3>
+      <p>Hidden User</p>
+      <a href="Hidden.zip" download>Download</a>
+    </div>
+    <!-- Add more download cards as needed -->
+  </div>
+
+  <footer>
+    © 2025 Pixlectic. All rights reserved.
+  </footer>
+
+</body>
+</html>
